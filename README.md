@@ -66,24 +66,6 @@ A tabela abaixo mapeia cada requisito especificado para os respectivos arquivos 
 5. **Executando no Android Studio / Emulador Android:**
    - Abra o **Android Studio**, abra o **Device Manager** e inicie o seu Emulador Android (AVD).
    - No terminal onde o Expo está rodando, pressione a tecla `a` (ou execute `npm run android`). O Expo instalará e iniciará automaticamente o aplicativo no emulador.
-
----
-
-## ♿ Roteiro de Teste de Acessibilidade (TalkBack / VoiceOver)
-
-O GameLib foi projetado seguindo as diretrizes WCAG 2.1 AA para acessibilidade móvel:
-
-### Como testar no Android (TalkBack):
-1. Acesse as **Configurações** do dispositivo/emulador Android > **Acessibilidade** > **TalkBack** e ative o serviço.
-2. Abra o aplicativo **GameLib**.
-3. **Navegação por foco:** Deslize o dedo para a direita para avançar entre os elementos.
-   - Os cartões de jogo anunciam `"Abrir detalhes de [Nome do Jogo], botão"`.
-   - As capas dos jogos anunciam `"Capa do jogo [Nome do Jogo], imagem"`.
-   - O botão de favoritos anuncia `"Adicionar [Nome do Jogo] aos favoritos, botão"` ou `"Remover [Nome do Jogo] dos favoritos, selecionado, botão"`.
-   - Na tela de detalhes, ao marcar como jogado, as estrelas anunciam `"Dar nota 1 de 5, botão"`, `"Dar nota 2 de 5, botão"`, etc.
-   - O link de atribuição no rodapé anuncia `"Abrir o site oficial da RAWG no navegador, link"`.
-4. **Fonte aumentada do sistema:** Acesse **Configurações** > **Tela** > **Tamanho da fonte** e defina no nível máximo ("Muito Grande"). Retorne ao app e verifique que os textos não são cortados, mantendo quebras de linha automáticas e cards com altura flexível.
-
 ---
 
 ## 🔗 Atribuição da API RAWG

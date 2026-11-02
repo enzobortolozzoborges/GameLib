@@ -1,5 +1,6 @@
 # GameLib 🎮 (Inspirado na Steam)
 
+**README gerado por IA**
 Aplicativo móvel completo de catálogo e biblioteca de jogos desenvolvido em **React Native** com **Expo** e **TypeScript estrito**, inspirado na interface e paleta de cores da **Steam**.
 
 O GameLib consome a API oficial da [RAWG Video Games Database](https://rawg.io) para apresentar um catálogo dinâmico com mais de 500 mil jogos, busca avançada com filtros, detalhes aprofundados de títulos, gerenciamento de Lista de Desejos (Favoritos) e registro de Jogos Jogados com avaliações pessoais de 1 a 5 estrelas. Todos os dados são salvos localmente e isolados individualmente por usuário autenticado.

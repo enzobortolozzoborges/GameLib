@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "GameLib",
+    "slug": "GameLib",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#171a21",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gamelib.app"
+    },
+    "android": {
+      "package": "com.gamelib.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#171a21",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font"
+    ]
+  }
+}
+
